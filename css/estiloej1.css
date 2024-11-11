@@ -1,0 +1,79 @@
+/*Jose Luis Saavedra Ramos*/
+body{
+    font-family: 'Montserrat', Arial, sans-serif;
+    background-color: darkgray;
+    color: #0b0a0a;
+    text-align: center;
+}
+
+header{
+    background-color:  #333;
+    color: white;
+    padding: 1px;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline;
+}
+
+header ul a{
+    color:white;
+    text-decoration: none;
+}
+
+header ul a:hover{
+    color:  #a9065d;
+}
+
+footer{
+    background-color:  #333;
+    color: white;
+}
+
+form{
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 1px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+form input, form select{
+    display: block;
+    text-align: left;
+    padding-right: 2px solid;
+    display: flex;
+}
+
+form ul{
+    text-align: justify;
+}
+
+form h3, form h2{
+    text-align: center;
+}
+
+form {
+    text-align: left;
+}
+
+form #boton{
+    background-color: #a9065d;
+    color: white;
+    border-radius: 4px;
+    margin-left: 47%;
+    border-color: #a9065d;
+}
+
+form #boton:hover{
+    background-color:  #4CAF50;
+    border-color:  #4CAF50;
+}
+
+form input::placeholder{
+    color:  #999;
+}
